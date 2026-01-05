@@ -22,7 +22,7 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
     <Body style={main}>
       <Container style={container}>
         <Img
-          src={`https://res.cloudinary.com/dqab6gg7d/image/upload/v1767632817/cradle_logo_zpo3pe.svg`}
+          src={`https://waitlist.cradlemarkets.com/cradle_logo_new.png`}
           width="220"
           height="100"
           alt="Cradle Protocol Logo"
