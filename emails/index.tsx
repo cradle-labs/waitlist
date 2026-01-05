@@ -35,7 +35,7 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
         </Text>
 
         <Text style={paragraph}>
-          You're joining ,000+ people who believe African securities markets deserve better infrastructure—infrastructure that's instant, accessible, and transparent.
+          You're joining 1,000+ people who believe African securities markets deserve better infrastructure—infrastructure that's instant, accessible, and transparent.
         </Text>
 
         <Text style={sectionHeader}>Here's what you can expect:</Text>
