@@ -41,7 +41,7 @@ export async function POST(request: NextRequest, response: NextResponse) {
   const { data, error } = await resend.emails.send({
     from: "donald@cradlemarkets.com",
     to: [email],
-    subject: "You're on the Cradle Protocol waitlist 🌍",
+    subject: "You're on the Cradle Protocol waitlist!",
     reply_to: "donald@cradlemarkets.com",
     html:  await render(WelcomeTemplate({ userFirstname: firstname })),
   });
