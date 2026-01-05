@@ -39,10 +39,10 @@ export async function POST(request: NextRequest, response: NextResponse) {
   const { email, firstname } = await request.json();
 
   const { data, error } = await resend.emails.send({
-    from: "onboarding@resend.dev",
+    from: "donald@cradlemarkets.com",
     to: [email],
     subject: "You're on the Cradle Protocol waitlist 🌍",
-    reply_to: "kimathidennis38@gmail.com",
+    reply_to: "donald@cradlemarkets.com",
     html:  await render(WelcomeTemplate({ userFirstname: firstname })),
   });
 
