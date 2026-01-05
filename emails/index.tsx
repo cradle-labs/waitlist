@@ -22,7 +22,7 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
     <Body style={main}>
       <Container style={container}>
         <Img
-          src={`https://nextjs-notion-waitlist.vercel.app/waitlist-logo.png`}
+          src={`/cradle_logo.svg`}
           width="220"
           height="100"
           alt="Cradle Protocol Logo"
@@ -35,7 +35,7 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
         </Text>
 
         <Text style={paragraph}>
-          You're joining 2,000+ people who believe African securities markets deserve better infrastructure—infrastructure that's instant, accessible, and transparent.
+          You're joining ,000+ people who believe African securities markets deserve better infrastructure—infrastructure that's instant, accessible, and transparent.
         </Text>
 
         <Text style={sectionHeader}>Here's what you can expect:</Text>
@@ -52,33 +52,16 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
 
         <Text style={bulletPoint}>
           💬 <strong>Community</strong><br />
-          Join our Telegram to connect with other early adopters and follow development in real-time: <Link href="#" style={link}>[Telegram Link]</Link>
+          Join our Telegram to connect with other early adopters and follow development in real-time: <Link href="https://t.me/cradle_protocol" style={link}>[Telegram Link]</Link>
         </Text>
 
         <Text style={sectionHeader}>In the meantime:</Text>
 
-        <Text style={bulletPoint}>
-          → Read our whitepaper to understand the technical architecture: <Link href="#" style={link}>[Link]</Link>
-        </Text>
-
+     
         <Text style={bulletPoint}>
           → Follow our Twitter for daily updates: <Link href="#" style={link}>[Link]</Link>
         </Text>
 
-        <Text style={bulletPoint}>
-          → Check out our roadmap to see what's coming: <Link href="#" style={link}>[Link]</Link>
-        </Text>
-
-        <Text style={sectionHeader}>Share the word:</Text>
-
-        <Text style={paragraph}>
-          Know someone who'd benefit from accessible NSE trading? Send them your referral link:<br />
-          <Link href="#" style={referralLink}>[Your Unique Link]</Link>
-        </Text>
-
-        <Text style={paragraph}>
-          For every 5 referrals, you move up 100 spots in the waitlist queue.
-        </Text>
 
         <Text style={paragraph}>
           Questions? Just reply to this email.
@@ -90,7 +73,7 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
         </Text>
 
         <Text style={postScript}>
-          P.S. — We're building in public. Follow along on Twitter: <Link href="#" style={link}>@CradleProtocol</Link>
+          P.S. — We're building in public. Follow along on Twitter: <Link href="https://x.com/CradleProtocol" style={link}>@CradleProtocol</Link>
         </Text>
 
         <Hr style={hr} />
