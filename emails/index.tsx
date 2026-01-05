@@ -63,9 +63,6 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
         </Text>
 
 
-        <Text style={paragraph}>
-          Questions? Just reply to this email.
-        </Text>
 
         <Text style={signOff}>
           See you at launch,<br />
